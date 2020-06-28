@@ -10,10 +10,6 @@ If you find a bug or a documentation issue, please report it or even better: fix
  - Details of your environment (for example: OS, PHP version, installed extensions)
  - Backtrace which might help identifing the bug
 
-## Security issues
-
-If you discover any security related issues, please contact us at [ferywardiyanto@gmail.com](mailto:ferywardiyanto@gmail.com) instead of submitting an issue on Github. This allows us to fix the issue and release a security hotfix without publicly disclosing the vulnerability.
-
 ## Feature requests
 
 If you think a feature is missing, please report it or even better: implement it :smile:. If you report it, describe the more precisely what you would like to see implemented and we will discuss what is the best approach for it. If you can do some research before submitting it and link the resources to your description, you're awesome! It will allow us to more easily understood/implement it.
