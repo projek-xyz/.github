@@ -1,73 +1,28 @@
-# How to Contribute
+# Request for contributions
 
-If you're here, you would like to contribute to this repository and you're really welcome!
+Please contribute to this repository if any of the following is true:
+- You have expertise in community development, communication, or education
+- You want open source communities to be more collaborative and inclusive
+- You want to help lower the burden to first time contributors
 
-## Bug reports
+# How to contribute
 
-If you find a bug or a documentation issue, please report it or even better: fix it :smile:. If you report it, please be as precise as possible. Here is a little list of required information:
+Prerequisites:
 
- - Precise description of the bug
- - Details of your environment (for example: OS, PHP version, installed extensions)
- - Backtrace which might help identifing the bug
+- Familiarity with [pull requests](https://help.github.com/articles/using-pull-requests) and [issues](https://guides.github.com/features/issues/).
+- Knowledge of [Markdown](https://help.github.com/articles/markdown-basics/) for editing `.md` documents.
 
-## Feature requests
+In particular, this community seeks the following types of contributions:
 
-If you think a feature is missing, please report it or even better: implement it :smile:. If you report it, describe the more precisely what you would like to see implemented and we will discuss what is the best approach for it. If you can do some research before submitting it and link the resources to your description, you're awesome! It will allow us to more easily understood/implement it.
-
-## Pull Requests
-
-If you're here, you are going to fix a bug or implement a feature and you're the best! To do it, first fork the repository, clone it and create a new branch with the following commands:
-
-```
-$ git clone git@github.com:your-name/repo-name.git
-$ git checkout -b feature-or-bug-fix-description
-```
-
-Then install the dependencies through [Composer](https://getcomposer.org):
-
-```
-$ composer install
-```
-
-Write code and tests. When you are ready, run the tests.
-
-```
-$ composer test
-```
-
-When you are ready with the code, tested it and documented it, you can commit and push it with the following commands:
-
-```
-$ git commit -m "Feature or bug fix description"
-$ git push origin feature-or-bug-fix-description
-```
-
-**Note:** Please write your commit messages in the imperative and follow the [guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) for clear and concise messages.
-
-Then [create a pull request](https://help.github.com/articles/creating-a-pull-request) on GitHub.
-
-Please make sure that each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please squash them before submitting with the following commands (here, we assume you would like to squash 3 commits in a single one):
-
-```
-$ git rebase -i HEAD~3
-```
-
-If your branch conflicts with the master branch, you will need to rebase and repush it with the following commands:
-
-```
-$ git remote add upstream git@github.com:projek-xyz/repo-name.git
-$ git pull --rebase upstream master
-$ git push -f origin feature-or-bug-fix-description
-```
-
-## Style Guide
-
-All pull requests must adhere to the [PSR-2 standard](http://www.php-fig.org/psr/psr-2).
-
-```
-$ composer lint
-```
-
-## Semver
-
-We are trying to follow [semver](http://semver.org/). When you are making BC breaking changes, please let us know why you think it is important. In this case, your patch can only be included in the next major version.
+- **Ideas**: participate in an issue thread or start your own to have your voice
+heard.
+- **Resources**: submit a pull request to add to RESOURCES.md with links to related content.
+- **Outline sections**: help us ensure that this repository is comprehensive. if
+there is a topic that is overlooked, please add it, even if it is just a stub
+in the form of a header and single sentence. Initially, most things fall into
+this category.
+- **Writing**: contribute your expertise in an area by helping us expand the included
+content.
+- **Copy editing**: fix typos, clarify language, and generally improve the quality
+of the content.
+- **Formatting**: help keep content easy to read with consistent formatting.
